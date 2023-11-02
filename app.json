@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myProject",
-    "slug": "myProject",
+    "name": "Tasbeeh",
+    "slug": "Tasbeeh",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pikes.Tasbeeh"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2811976-cf64-42b0-8c26-70bc463460be"
+      }
     }
   }
 }
